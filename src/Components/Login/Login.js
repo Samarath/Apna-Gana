@@ -5,7 +5,7 @@ const Login = () => {
        <div className='center_loginform'>
         <form className="login_form">
 
-            <h2>Welcome to Apna Gana</h2>
+            <h2>Login</h2>
 
             <label htmlFor="email">
                 <p>Email</p>
@@ -18,6 +18,7 @@ const Login = () => {
             </label>
 
             <input type='submit' value='Login'/>
+            <input type='submit' value='New user? Register'/>
         </form>
       </div>  
     </>
